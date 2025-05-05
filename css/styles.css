@@ -146,6 +146,7 @@ body {
   z-index: var(--z-index-bottom);
 }
 .activity__info {
+  border-radius: var(--br);
   background: var(--blue-800);
   position: relative;
   grid-row: 2/3;
@@ -187,6 +188,10 @@ body {
   font-weight: 300;
   color: white;
   line-height: 6.6rem;
+}
+.activity__previous-timeframes {
+  font-size: 1.3rem;
+  color: var(--blue-100);
 }
 /* Media Queries */
 /* Tablet Size */
